@@ -30,6 +30,8 @@ Ciklum task made on AngularJS and Bootstrap
 
 *__bower install__*
 
+If your command line throw an error during *__bower install__* -- try *__bower cache clean__* and do it again
+
 ### 5) Install Gulp locally and add devDependency in your package.json file:
 
 *__npm install --save-dev gulp__*
@@ -39,4 +41,4 @@ Ciklum task made on AngularJS and Bootstrap
 *__npm install --save-dev gulp-sass__*
 
 
-### 7) run *__gulp__* in your command line
+### 7) run *__gulp__* in your command line.
