@@ -2,47 +2,47 @@
 Ciklum task made on AngularJS and Bootstrap
 
 
-Initial steps:
+## Initial steps:
 
 
-0) Before start install ruby, node and npm on your computer!
+### 0) Before start install ruby, node and npm on your computer!
 
 
 If you haven't Bower in your computer:
 
-1) Install Bower:
+###  1) Install Bower:
 
-npm install -g bower
+*__npm install -g bower__*
 
 
 If you haven't Gulp in your computer:
 
-2) Install Gulp:
+###  2) Install Gulp:
 
-npm install -g gulp
+*__npm install -g gulp__*
 
 
 If you haven't SASS in your computer:
 
-3) Install SASS:
+### 3) Install SASS:
 
-gem install sass
+*__gem install sass__*
 
 
 
 Go to the project folder and:
 
-4) Install the project dependencies listed in bower.json:
+### 4) Install the project dependencies listed in bower.json:
 
-bower install
+*__bower install__*
 
-5) Install Gulp locally and add devDependency in your package.json file:
+### 5) Install Gulp locally and add devDependency in your package.json file:
 
-npm install --save-dev gulp
+*__npm install --save-dev gulp__*
 
-6) Install SASS locally and add devDependency in your package.json file:
+### 6) Install SASS locally and add devDependency in your package.json file:
 
-npm install --save-dev gulp-sass
+*__npm install --save-dev gulp-sass__*
 
 
-7) run gulp in your command line
+### 7) run *__gulp__* in your command line
