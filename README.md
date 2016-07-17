@@ -8,9 +8,7 @@ Ciklum task made on AngularJS and Bootstrap
 ### 0) Before start install ruby, node and npm on your computer!
 
 
-If you haven't Bower in your computer:
-
-###  1) Install Bower:
+###  1) Install Bower ######(If you haven't Bower in your computer)###:
 
 *__npm install -g bower__*
 
