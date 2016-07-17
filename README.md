@@ -13,12 +13,12 @@ Ciklum task made on AngularJS and Bootstrap
 *__npm install -g bower__*
 
 
-###  2) Install Gulp(If you haven't Gulp in your computer):
+###  2) Install Gulp (If you haven't Gulp in your computer):
 
 *__npm install -g gulp__*
 
 
-### 3) Install SASS(If you haven't SASS in your computer):
+### 3) Install SASS (If you haven't SASS in your computer):
 
 *__gem install sass__*
 
