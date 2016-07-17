@@ -1,0 +1,55 @@
+<div ng-controller="HomePage">
+    <section class="hero">
+        <div class="hero__background-container hero__background-container--female"></div>
+        <div class="top-section">
+            <div class="top-section__container">
+                <h1>Collaborate faster and more securely</h1>
+                <h2>Boost business productivity with the ultimate file saving and sharing tool that employees love and IT admins trust.</h2>
+                <div class="try-business-cta">
+                    <a href="javascript:void(0)" target="" class="btn btn-primary">Try free for 30 days</a>
+                    <br><span>or <a href="javascript:void(0)">purchase now</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-section">
+        <form name="Form" novalidate>
+            <h2>Join over 2 million designers already using InVision. Get InVision <span>free</span> forever!</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="form-group" ng-class="{'has-error':Form.name.$dirty && Form.name.$invalid, 'has-success':Form.name.$valid}">
+                     <span class="input-icon">
+                         <input ng-model="StartForm.name" type="text" name="name" class="form-control" placeholder="Your Name" ng-pattern="/^([A-Za-z'-\s]{2,})$/" required>
+                         <i class="fa fa-user"></i>
+                    </span>
+                        <span class="error text-small block" ng-if="Form.name.$dirty && Form.name.$invalid">Name is required</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="form-group" ng-class="{'has-error':Form.email.$dirty && Form.email.$invalid, 'has-success':Form.email.$valid}">
+                     <span class="input-icon wide-icon">
+                         <input ng-model="StartForm.email" type="text" name="email" class="form-control" placeholder="Email Address" ng-pattern="/^([\w\._-]+@[a-zA-Z_]+?\.[a-zA-Z]{2,6}(.[a-zA-Z]{2,6})?)$/" required>
+                         <i class="fa fa-envelope"></i>
+                    </span>
+                        <span class="error text-small block" ng-if="Form.email.$dirty && Form.email.$invalid">Email is required</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="form-group" ng-class="{'has-error':Form.password.$dirty && Form.password.$invalid, 'has-success':Form.password.$valid}">
+                     <span class="input-icon">
+                         <input ng-model="StartForm.password" type="password" name="password" class="form-control" placeholder="Create a Password" ng-minlength="6" ng-maxlength="12" ng-pattern="/(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z])/" required>
+                         <i class="fa fa-lock"></i>
+                    </span>
+                        <span class="error text-small block" ng-show="(Form.password.$error.minlength || Form.password.$error.maxlength) && Form.password.$dirty">Passwords must be between 6 and 12 characters.</span>
+                        <span  class="error text-small block"ng-show="!Form.password.$error.minlength && !Form.password.$error.maxlength && Form.password.$error.pattern && Form.password.$dirty">Must contain one lower &amp; uppercase letter, and one non-alpha character (a number or a symbol.)</span>
+                        <span class="error text-small block" ng-if="Form.password.$dirty && Form.password.$invalid">Password is required</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <button class="btn btn-get-started" type="submit" ng-click="submitForm(Form)">Get started - free forever!</button>
+                </div>
+            </div>
+        </form>
+        <p class="terms">By clicking "Get Started - Free Forever!" I agree to InVision's <a href="javascript:void(0)">Terms of Service.</a></p>
+    </section>
+</div>

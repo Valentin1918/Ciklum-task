@@ -1,0 +1,169 @@
+<!-- start: HORIZONTAL MENU -->
+<div class="horizontal-menu-wrapper" ng-model="horizontalNavbarCollapsed">
+	<div class="horizontal-nav-container">
+		<ul class="nav navbar-nav no-border">
+			<li ui-sref-active="active">
+				<a ui-sref="app.home">
+					<div class="item-content">
+						<div class="item-inner">
+							<span class="title"> Home </span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li uib-dropdown auto-close="outsideClick"> <!--ng-class="{'active':$state.includes('app.ui')}"-->
+				<a href="javascript:void(0)" uib-dropdown-toggle> <span> Store</span> <span class="caret"></span></a>
+				<ul uib-dropdown-menu>
+					<li ui-sref-active="active">
+						<a ui-sref="app.some-page"> <span> Store home </span> </a>
+					</li>
+					<li class="dropdown-submenu">
+						<a href="#"> <span>Devices</span> </a>
+						<ul class="dropdown-menu">
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Surface </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> PCs & tablets </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Xbox </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Band </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Lumina </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Accessoires </span> </a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown-submenu">
+						<a href="#"> <span>Software</span> </a>
+						<ul class="dropdown-menu">
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Office </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Windows </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Additional software </span> </a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown-submenu">
+						<a href="#"> <span>Apps</span> </a>
+						<ul class="dropdown-menu">
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> All apps </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Windows apps </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Windows Phone apps </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Xbox apps </span> </a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li uib-dropdown auto-close="outsideClick"> <!--ng-class="{'active':$state.includes('app.ui')}"-->
+				<a href="javascript:void(0)" uib-dropdown-toggle> <span> Products </span> <span class="caret"></span></a>
+				<ul uib-dropdown-menu>
+					<li class="dropdown-submenu">
+						<a href="#"> <span>Software & services</span> </a>
+						<ul class="dropdown-menu">
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Windows </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Office </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Free downloads & security </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Internet Explorer </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Edge </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Skype </span> </a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown-submenu">
+						<a href="#"> <span>Devices & Xbox</span> </a>
+						<ul class="dropdown-menu">
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> All Microsoft devices </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Surface </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> All Windows PCs & tablets </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> PC Accessories </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Xbox & games </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Band </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Lumina </span> </a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown-submenu">
+						<a href="#"> <span>For business</span> </a>
+						<ul class="dropdown-menu">
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Cloud platform </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Azure </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Microsoft Dynamics </span> </a>
+							</li>
+							<li ui-sref-active="active">
+								<a ui-sref="app.some-page"> <span> Windows for business </span> </a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li ui-sref-active="active">
+				<a ui-sref="app.support">
+					<div class="item-content">
+						<div class="item-inner">
+							<span class="title"> Support </span>
+						</div>
+					</div>
+				</a>
+			</li>
+
+
+
+
+		</ul>
+	</div>
+	<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+	<div class="close-handle visible-xs-block visible-sm-block menu-toggler" ng-click="menuInit(true)" ng-swipe-up="menuInit(true)">
+		<div class="arrow-left"></div>
+		<div class="arrow-right"></div>
+	</div>
+	<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+</div>
+<!-- end: HORIZONTAL MENU -->

@@ -1,0 +1,17 @@
+<!-- start: TOP NAVBAR -->
+<header class="navbar navbar-default">
+    <!-- start: NAVBAR HEADER -->
+    <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="app.home"> <img ng-src="{{app.layout.logo}}" alt="{{app.name}}" /> </a>
+        <button href="javascript:void(0)" ng-show="isMobileDevice" ng-class="{hide:!isMobileDevice}" class="menu-mobile-toggler btn" ng-click="menuToggle()">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+    <!-- start: HORIZONTAL MENU -->
+    <div data-ng-include=" 'assets/views/partials/horizontal-menu.html' " uib-collapse="navbarCollapsed"></div>
+    <!-- end: HORIZONTAL MENU -->
+</header>
+<!-- end: TOP NAVBAR -->
+
+
+

@@ -1,0 +1,28 @@
+{
+  "name": "Ciklum-task",
+  "version": "1.0.0",
+  "description": "Ciklum task made with AngularJS and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valentin1918/Ciklum-task.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Bootstrap",
+    "Ciklum"
+  ],
+  "author": "Grekulov Valentyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valentin1918/Ciklum-task/issues"
+  },
+  "homepage": "https://github.com/Valentin1918/Ciklum-task",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
