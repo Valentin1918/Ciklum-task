@@ -32,7 +32,7 @@ Ciklum task made on AngularJS and Bootstrap
 
 If your command line throw an error during *__bower install__* -- try *__bower cache clean__* and do it again
 
-If it will be proposed to chose the Angular version -- select answer ? __4__
+If it will be proposed to chose the Angular version -- select answer number __4__
 
 ### 5) Install Gulp locally and add devDependency in your package.json file:
 
